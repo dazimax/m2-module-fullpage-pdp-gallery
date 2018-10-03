@@ -1,4 +1,4 @@
-# m2-module-fullpage-pdp-gallery
+# M2 Module for Full Page PDP Gallery
 
 Magento V2 Module for Product Details Page full page gallery.
 
