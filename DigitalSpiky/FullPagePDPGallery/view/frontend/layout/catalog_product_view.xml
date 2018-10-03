@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2018 DigitalSpiky. All rights reserved.
+ *
+ * PHP version 7.0
+ *
+ * @category  PHP
+ * @license   licence.txt ©
+ * @link      http://www.digitalspiky.com
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="DigitalSpiky_FullPagePDPGallery::css/full_page_gallery.css"/>
+    </head>
+    <body>
+        <referenceBlock name="product.info.media.image" remove="true"/>
+        <referenceContainer name="product.info.media">
+            <block class="Magento\Catalog\Block\Product\View\Gallery" name="product.info.media.fullpagegalery" template="DigitalSpiky_FullPagePDPGallery::/product/view/full_page_gallery.phtml" />
+        </referenceContainer>
+    </body>
+</page>
